@@ -1,0 +1,60 @@
+.display-3 {
+    color: #fff;
+}
+
+.lead {
+    color: #fff;
+}
+
+h1, a, .section-title {
+    text-transform: uppercase;
+}
+
+div > h2, H3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.line {
+    width: 6%;
+    margin: 0 auto;
+    border-top: solid 1px #cecece;
+    padding: 20px;
+}
+
+.width {
+    display: inline-block;
+    text-align: center;
+}
+
+.material-icons {
+    display: inline-block;
+    font-size: 70px;
+}
+div h3 {
+    padding: 20px;
+}
+
+.carousel-inner img {
+    height: 600px;
+}
+
+.jumbotron {
+    background: url("img/bg-3.jpg") no-repeat 0 center;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        padding: 7rem 2rem;
+    }
+}
+
+.my-4 {
+    border-top: 1px rgba(0,0,0,.1);
+}
+
+
+.jumbotron {
+    border-radius: 0;
+}
